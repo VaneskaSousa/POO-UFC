@@ -1,5 +1,5 @@
 # POO-UFC
-Repositorio dos exercícios feitos para a cadeira de POO. 
+Repositorio dedicado a cadeira de Programação Orientada a Objeto no curso de Sistemas e Mídias Digitais na UFC.
 
 **Informações Pessoais:**
 - Nome: Vaneska Karen de Sousa Silva.
