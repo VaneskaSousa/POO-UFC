@@ -33,4 +33,4 @@
 	> Uma classe possui 3 componentes, que são nome, atributos e métodos. Enquanto a interface possui apenas o nome e os métodos, por ser apenas o contrato então não possui implementação.
 
 **8. Elabore os diagramas de Caso de Uso (2 pontos) e de Classes (2 pontos) para o jogo Pong** 
-![]()
+![](https://raw.githubusercontent.com/VaneskaSousa/POO-UFC/main/aula-2-uml/artefatos/uml-pong-png.png)
