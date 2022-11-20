@@ -54,3 +54,5 @@ public class Gerente: Funcionario{
 * Pelo menos 4 classes, as quais devem possuir pelo menos 1 método cada;
 * Pelo menos 3 relações de herança com sobreposição de métodos, delegando cada tipo de documento a uma classe específica;
 * Implemente o suporte a argumentos de linha de comando e ganhe 1 ponto extra.
+
+> **Projeto implementando os 2 primeiros tópicos em [aula-4-heranca/EnchantedBoldBraces](https://github.com/VaneskaSousa/POO-UFC/blob/main/aula-4-heranca/EnchantedBoldBraces/main.cs)**
