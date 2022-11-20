@@ -14,4 +14,9 @@ Repositorio dedicado a cadeira de Programação Orientada a Objeto no curso de S
 ## Portfolio
 1. [Introdução a POO](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-1-introd-poo);
 2. [UML](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-2-uml);
-3. TBD
+3. [Associação](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-3-associacoes);
+4. [Herança](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-4-heranca)
+5. [Polimofismo](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-5-polimofismo)
+6. [Classes Abstratas e Interfaces](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-6-classes-abstratas-e-interfaces)
+7. [Encapsulamento e Static](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-7-encapsulamento-e-static)
+
