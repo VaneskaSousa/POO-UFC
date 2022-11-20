@@ -1,4 +1,4 @@
-# LISTA DE EXERCÍCIOS – AULA 1: INTRODUÇÃO À ORIENTAÇÃO A OBJETOS
+# LISTA DE EXERCÍCIOS – AULA 2: UML
 
 **1. Descreva, com suas palavras, o que é UML e qual a sua importância**
 > É uma linguagem padrão criada justamente para elaborar estruturas de projetos de software. Ela pode ser usada para viasualização, estruturação, especificação, construção e documentação de artefatos de softwares. 
