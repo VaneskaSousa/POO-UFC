@@ -28,3 +28,5 @@
 * Pelo menos 3 classes, as quais devem possuir pelo menos 1 atributo e 1 método cada; 
 * Pelo menos uma relação de agregação. Construa seu programa de modo que pelo menos método de um tipo agregado (parte) seja usado pelo todo para ganhar meio ponto extra;
 * Pelo menos uma relação de composição. Use pelo menos um método do usado na composição(parte) seja usado pelo todo para ganhar meio ponto extra.
+
+> **Repositorio do projeto acima em [aula-3-associacoes](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-3-associacoes/associacoes/src/associacoes).**
