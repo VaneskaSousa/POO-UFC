@@ -1,13 +1,45 @@
 # LISTA DE EXERCÍCIOS – AULA 5: Polimofismo
 
 **1. Descreva, com suas palavras, o que é polimorfismo e como os mecanismos de herança e sobrecarga atuam no polimorfismo.**
->
+> O polimofirmo é a denominação dada aos casos onde métodos tem formas diferentes mesmo que tenha a mesma assinatura. E a *sobreescrita* se dá quando o metodo tem a mesma assinatura mas com o funcionamento diferente. Já a **sobrecarga** se dá quando uma subclasse (ou seja - uma classe "filho" que herda atributos e metodos da classe "pai) implementa o mesmo metodo da superclasse e a sobrecarga realiza o trabalho de diferenciar cada metodo de cada classe. 
+
 
 **2. Explique o que é ligação tardia. Qual o papel da ligação tardia na implementação do polimormismo? Escreva um pequeno programa que exemplifica o uso de ligação tardia e ganhe meiopontoextra.** 
->
+> É quando a decisão de qual método será usado (da superclasse ou das suas subclasses) é tomada no tempo de execução do método, utilizando o sistema de endereçamento da memória para decidir isso, a ligação tardia serve fazendo o polimorfismo se tornar eficiente. Por exemplo:
+
+<pre>
+public class Main {
+	public static void main(String[] args) {
+		Animal fuinha = new Fuinha();
+		Animal cachorro = new Cachorro();
+		fuinha.brincar();
+		cachorro.brincar();
+	}
+}
+
+public class Animal {
+	public void brincar() {
+		System.out.println("...");
+	}
+}
+
+public class Fuinha extends Animal{
+	public void brincar() {
+		System.out.println("*rola no chão e corre em circulos*");
+	}
+}
+
+public class Cachorro extends Animal{
+	public void brincar() {
+		System.out.println("*corre atras da bolinha*");
+	}
+}
+</pre>
 
 **3. O que são coerção, upcasting e downcasting? Fale da sua relação com os conceitos de superclasse e subclasse. Escreva um pequeno programa exemplificando coerção, downcasting e upcastingparaganhar meio ponto extra.** 
->
+>  Coerção ou casting é fazer um objeto se converter por outro tipo que não seja o dele.
+>  Upcasting é fazer um objeto se passar por um supertipo de outro objeto
+>  Downcasting é fazer um objeto se passar por um subtipo de outro objeto.
 
 **4. Crie uma classe Sort, que contém um método concreto sort( int array[] ), que ordena um array de inteiros (use o bubble sort, por exemplo). Depois crie duas classes, MergeSort e QuickSort, que estendem de Sort e implementam seus próprios algoritmos de ordenação: merge sort equicksort,respectivamente. Crie um programa que teste qual desses métodos de ordenação é o mais rápido,considerando que um array grande (digamos, uns 100 mil elementos) já ordenado é fornecidocomoentrada e ganhe um ponto extra.**
 >
