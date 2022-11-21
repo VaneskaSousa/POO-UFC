@@ -6,7 +6,7 @@
 **2. Explique o que é ligação tardia. Qual o papel da ligação tardia na implementação do polimormismo? Escreva um pequeno programa que exemplifica o uso de ligação tardia e ganhe meiopontoextra.** 
 >
 
-** 3. O que são coerção, upcasting e downcasting? Fale da sua relação com os conceitos de superclasse e subclasse. Escreva um pequeno programa exemplificando coerção, downcasting e upcastingparaganhar meio ponto extra.** 
+**3. O que são coerção, upcasting e downcasting? Fale da sua relação com os conceitos de superclasse e subclasse. Escreva um pequeno programa exemplificando coerção, downcasting e upcastingparaganhar meio ponto extra.** 
 >
 
 **4. Crie uma classe Sort, que contém um método concreto sort( int array[] ), que ordena um array de inteiros (use o bubble sort, por exemplo). Depois crie duas classes, MergeSort e QuickSort, que estendem de Sort e implementam seus próprios algoritmos de ordenação: merge sort equicksort,respectivamente. Crie um programa que teste qual desses métodos de ordenação é o mais rápido,considerando que um array grande (digamos, uns 100 mil elementos) já ordenado é fornecidocomoentrada e ganhe um ponto extra.**
