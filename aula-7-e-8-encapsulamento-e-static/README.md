@@ -14,17 +14,17 @@
 	>Public: é o modificador de acesso que diz que qualquer um pode acessar aquele atributo ou método
 	> Private : é o modificador de acesso que diz que o atributo ou método só poderá ser utilizado internamente pela classe.
 	> Protected: indica que apenas as subclasses podem acessar aquele método ou atributo. Exclusivamente em JAVA classes de um mesmo pacote também podem ter acesso.
-	* Métodos getters e setters; e
+* Métodos getters e setters; e
 	> métodos getters e setters são utilizados para que as classes não acessem diretamente as propriedades do objeto. Estes são geralmente métodos públicos que permitem a mudança 
-	* Usando a linguagem de programação da sua escolha, escreva um programa que exemplifique os conceitos e ganhe 1 ponto extra.
+* Usando a linguagem de programação da sua escolha, escreva um programa que exemplifique os conceitos e ganhe 1 ponto extra.
 	> Voce pode acessar a aplicação [clicando aqui](https://github.com/VaneskaSousa/POO-UFC/tree/main/aula-7-e-8-encapsulamento-e-static/poo)
 
-**3. Responda:
+**3. Responda:**
 * O que são atributos e métodos de classe (static)? 
-> Atributo estático é um estado que vive na classe. Por conta disso, sempre que você cria um novo objeto dessa classe, eles possuem o mesmo valor para o atributo. Geralmente é usado para constantes. Método estático também é um método que vive na classe.
+	> Atributo estático é um estado que vive na classe. Por conta disso, sempre que você cria um novo objeto dessa classe, eles possuem o mesmo valor para o atributo. Geralmente é usado para constantes. Método estático também é um método que vive na classe.
 * Qual a necessidade deles? Cite dois exemplos. 
-> Compartilhar atributos e metodos com todas as classes filhos. Por exemplo num sistema de banco onde todas as contas bancarias devem ter saldo, tipo de conta e metodos de extrato e saque. 
-* Crie um pequeno programa ilustrando seus exemplos com pelo menos 1 método de classe e 1 atributo de classe, ganhando meio ponto extra para cada exemplo.**
+	> Compartilhar atributos e metodos com todas as classes filhos. Por exemplo num sistema de banco onde todas as contas bancarias devem ter saldo, tipo de conta e metodos de extrato e saque. 
+* Crie um pequeno programa ilustrando seus exemplos com pelo menos 1 método de classe e 1 atributo de classe, ganhando meio ponto extra para cada exemplo.
 
 **4. Implemente uma classe Usuario que:**
 * Possua um identificador inteiro único (um “CPF”, atributo de instância), i.e., jamais duasinstâncias de Usuario devem possuir o mesmo identificador;
