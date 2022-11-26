@@ -43,7 +43,7 @@ public class Cachorro extends Animal{
 
 >  Downcasting é fazer um objeto se passar por um subtipo de outro objeto.
 
-<pew> 
+<pre> 
 public class Main { 
 	public static void main (String[]args){ 
 		Forma circulo = new Circulo (); 
