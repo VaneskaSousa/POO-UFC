@@ -98,11 +98,14 @@ class Circulo extends Forma {
 </pre>
 
 * Crie um diagrama UML explicando como pretende representar essas formas no seu programa.
-* Implemente um pequeno programa a partir de seu diagrama UML e ganhe 1 ponto extra.
+![](https://github.com/VaneskaSousa/POO-UFC/blob/main/aula-6-classes-abstratas-e-interfaces/images/q3-b.png)
 
-**4.Suponha que você esteja desenvolvendo um jogo para console usando uma linguagemOO. Nessejogo, há classes diferentes com suporte a itens, armas, skills, inventário, etc, todas concretaseespecializando as classes de um motor de jogo. Imagine que o jogo está quase pronto. De repente,o seu gerente de projetos lembra que o jogo precisa implementar salvamento e carregamento do estado do game.**
+**4.Suponha que você esteja desenvolvendo um jogo para console usando uma linguagem OO. Nesse jogo, há classes diferentes com suporte a itens, armas, skills, inventário, etc, todas concretaseespecializando as classes de um motor de jogo. Imagine que o jogo está quase pronto. De repente, o seu gerente de projetos lembra que o jogo precisa implementar salvamento e carregamento do estado do game.**
+
 * Como você resolveria esse problema usando POO? Explique sua solução textualmente;
-> 
+> Criaria uma Interface onde assinaria os métodos de carregar e salvar o jogo com seus devidos parâmetros, desta forma as outras classes do projeto poderiam implementa-los da melhor maneira possível para salvar suas ações.
+
 * Use UML para expressar sua ideia; e
 >
+
 * Implemente um programa simples que exemplifique como sua solução funciona e ganhe 1 ponto extra.
