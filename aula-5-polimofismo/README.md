@@ -38,8 +38,48 @@ public class Cachorro extends Animal{
 
 **3. O que são coerção, upcasting e downcasting? Fale da sua relação com os conceitos de superclasse e subclasse. Escreva um pequeno programa exemplificando coerção, downcasting e upcastingparaganhar meio ponto extra.** 
 >  Coerção ou casting é fazer um objeto se converter por outro tipo que não seja o dele.
+
 >  Upcasting é fazer um objeto se passar por um supertipo de outro objeto
+
 >  Downcasting é fazer um objeto se passar por um subtipo de outro objeto.
+
+<pew> 
+public class Main { 
+	public static void main (String[]args){ 
+		Forma circulo = new Circulo (); 
+		circulo.Desenhar (); 
+		UpCasting (); 
+		DownCasting (); 
+	} 
+	private static void UpCasting (){ 
+		Circulo circulo = new Circulo (); 
+		Forma f = circulo; 
+		System.out.println (f == circulo); 
+		f.Desenhar (); 
+	} 
+	private static void DownCasting (){ 
+		Circulo circulo = new Circulo (); Forma f = circulo; //upcasting -> implicita 
+		Circulo c = (Circulo) f; //downcast -> explicita 
+		c.PintarCirculo (); c.Desenhar (); 
+		System.out.println (c == f); 
+		System.out.println (c == circulo); 
+	} 
+} 
+class Forma{ 
+	public void Desenhar (){ 
+		System.out.println ("Forma"); 
+	} 
+} 
+class Circulo extends Forma{ 
+	@Override 
+	public void Desenhar (){ 
+		System.out.println ("Desenhar Circulo"); 
+	} 
+	public void PintarCirculo (){ 
+		System.out.println ("Pintando o Circulo"); 
+	} 
+}
+</pre>
 
 **4. Crie uma classe Sort, que contém um método concreto sort( int array[] ), que ordena um array de inteiros (use o bubble sort, por exemplo). Depois crie duas classes, MergeSort e QuickSort, que estendem de Sort e implementam seus próprios algoritmos de ordenação: merge sort equicksort,respectivamente. Crie um programa que teste qual desses métodos de ordenação é o mais rápido,considerando que um array grande (digamos, uns 100 mil elementos) já ordenado é fornecidocomoentrada e ganhe um ponto extra.**
 >
